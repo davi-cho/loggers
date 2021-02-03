@@ -18,9 +18,7 @@ def crear_logger():
 		level="ERROR",
 		rotation="200 MB",
 		catch=True,
-		format="{time:MM-DD-YYYY HH:mm:ss} | \
-		{level}: \
-		{message}"
+		format="{time:MM-DD-YYYY HH:mm:ss} | {level}: {message}"
 	)
 	return loguru_logger
 
