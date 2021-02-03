@@ -1,2 +1,2 @@
 # loggers
-Algunos loggers usados en diferentes proyectos.
+Colección de loggers usados en diferentes proyectos.
