@@ -13,7 +13,7 @@ def crear_logger():
 		<light-white>{message}</light-white>"
 	)
 	loguru_logger.add(
-		'logs/errors.log',
+		'.logs/errors.log',
 		colorize=True,
 		level="ERROR",
 		rotation="200 MB",
