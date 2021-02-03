@@ -10,5 +10,8 @@ setup(
     license='...',
     packages=find_packages(),
     include_package_data=True,
+    install_requires=[
+        'loguru==0.5.3'
+    ],
     zip_safe=False
 )
